@@ -23,7 +23,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         //2.initialize properties
         editTextEmail=findViewById(R.id.editTextEmail);
-        editTextEmail=findViewById(R.id.editTextPassword);
+        editTextPassword=findViewById(R.id.editTextPassword);
 
         buttonLogIn=findViewById(R.id.buttonSignIn);
         buttonSignUp=findViewById(R.id.buttonSignUp);
