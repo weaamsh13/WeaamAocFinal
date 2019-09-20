@@ -13,7 +13,7 @@ import static android.widget.Toast.makeText;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     //1, properties definition
-    EditText editTextEmail , EditTextPassword;
+    EditText editTextEmail , editTextPassword;
     Button buttonLogIn, buttonSignUp;
 
     @Override
