@@ -4,42 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/sixtynine"
-    tools:context=".LoginActivity">
+    tools:context=".AddGameActivity">
+
+    <Button
+        android:id="@+id/buttonAddGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Game"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="399dp" />
 
     <EditText
-        android:id="@+id/editTextEmail"
+        android:id="@+id/editTextGameName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:ems="10"
-        android:hint="Email"
+        android:hint="GameName"
         android:inputType="textEmailAddress"
         android:padding="25dp" />
 
 
     <EditText
-        android:id="@+id/editTextPassword"
+        android:id="@+id/editTextGameTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
+        android:hint="GameTime"
+        android:inputType=""
         android:padding="25dp" />
-
-    <Button
-        android:id="@+id/buttonSignIn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sign In" />
-
-    <Button
-        android:id="@+id/buttonSignUp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sign Up" />
-
 
 </LinearLayout>

@@ -1,7 +1,10 @@
 package y2019.weaam.aoc.weaamaoc2019;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,8 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvEmail.setText(email);
         tvPassword.setText(password);
 
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
         //creating objects for components
         buttonSignIn = findViewById(R.id.buttonSignIn);
@@ -55,9 +56,47 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId())
+        {
+            case R.id.addgame:
+                Intent i=new Intent(this,AddGameActivity.class);
+                startActivity(i);
+                break;
+
+            case R.id.gamelist:
+
+                break;
+
+
+
+
+
+
+        }
+        return true;
+
+    }
+
+
+
+
+
+
+
+    @Override
     public boolean onLongClick(View v) {
         return false;
     }
+
+
 
 
 }
