@@ -1,6 +1,8 @@
 package y2019.weaam.aoc.weaamaoc2019;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -72,8 +74,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.gamelist:
-
+                i = new Intent(this,GamelistActivity.class);
+                startActivity(i);
                 break;
+
+            case R.id.logout:
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setMessage("Are you sure you want to quit?");
+                builder.setCancelable(true);
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent c = new Intent(MainActivity.this,LoginActivity.class);
+                        startActivity(c);
+                    }
+                });
+                builder.setNegativeButton("No", null);
+                AlertDialog dialog = builder.create();
+                dialog.show();
+                break;
+
 
 
 

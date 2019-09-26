@@ -7,14 +7,6 @@
     android:background="@drawable/sixtynine"
     tools:context=".AddGameActivity">
 
-    <Button
-        android:id="@+id/buttonAddGame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add Game"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="399dp" />
-
     <EditText
         android:id="@+id/editTextGameName"
         android:layout_width="wrap_content"
@@ -26,14 +18,12 @@
         android:padding="25dp" />
 
 
-    <EditText
-        android:id="@+id/editTextGameTime"
+    <Button
+        android:id="@+id/buttonAddGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        android:ems="10"
-        android:hint="GameTime"
-        android:inputType=""
-        android:padding="25dp" />
+        android:text="Add Game"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="399dp" />
 
 </LinearLayout>
