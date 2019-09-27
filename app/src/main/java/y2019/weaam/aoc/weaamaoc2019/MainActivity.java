@@ -8,54 +8,46 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnLongClickListener
 {
 
     //components
-    TextView tvEmail, tvPassword;
-    Button buttonSignIn, buttonSignUp;
+    ListView lvClubs;
+    ArrayAdapter<String> adapter;
+    ArrayList<String> arrClubs=new ArrayList<String>();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String password = getIntent().getStringExtra("password");
+        arrClubs.add("Liverpool");
+        arrClubs.add("Manchester United");
+        arrClubs.add("Chelsea");
+        adapter=new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, arrClubs);
 
-        String email = getIntent().getStringExtra("email");
+        lvClubs=(ListView) findViewById(R.id.lvClubs);
+        lvClubs.setAdapter(adapter);
 
-        tvEmail = findViewById(R.id.tvEmail);
-        tvPassword = findViewById(R.id.tvPassword);
-
-        tvEmail.setText(email);
-        tvPassword.setText(password);
 
 
         //creating objects for components
-        buttonSignIn = findViewById(R.id.buttonSignIn);
-        buttonSignUp = findViewById(R.id.buttonSignUp);
 
-        buttonSignIn.setOnClickListener(this);
-        buttonSignUp.setOnClickListener(this);
-
-        buttonSignUp.setOnLongClickListener(this );
 
     }
 
-    @Override
-    public void onClick(View v) {
-        if (v == buttonSignIn) {
-            Toast.makeText(this, "Sign In", Toast.LENGTH_LONG).show();
 
 
-        }
-        else {
-            Toast.makeText(this, "Sign Up", Toast.LENGTH_LONG).show();
-        }
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
@@ -117,6 +109,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
+    @Override
+    public void onClick(View v) {
+
+    }
 
 
-}
+
+
+
+    }
+

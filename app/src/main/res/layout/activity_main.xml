@@ -9,42 +9,21 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="lol" />
-
-    <Button
-        android:id="@+id/buttonSignIn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sign In" />
-
-    <Button
-        android:id="@+id/buttonSignUp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sign Up" />
-
-    <TextView
         android:id="@+id/tvEmail"
         android:layout_width="314dp"
         android:layout_height="68dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="TextView" />
+        android:text="AllEPL"
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/tvPassword"
-        android:layout_width="314dp"
-        android:layout_height="68dp"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="TextView" />
+    <ListView
+        android:id="@+id/lvClubs"
+        android:layout_width="match_parent"
+        android:layout_height="663dp">
 
 
-
-
-
+    </ListView>
 
 
 </LinearLayout>
