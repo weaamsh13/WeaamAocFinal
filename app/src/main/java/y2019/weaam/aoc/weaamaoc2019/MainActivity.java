@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         arrClubs.add("Liverpool");
         arrClubs.add("Manchester United");
         arrClubs.add("Chelsea");
+        arrClubs.add("Arsenal");
+        arrClubs.add("Manchester City");
+        arrClubs.add("Tottenham");
+        arrClubs.add("Leicester City");
         adapter= new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, arrClubs);
 
         lvClubs=(ListView) findViewById(R.id.lvClubs);

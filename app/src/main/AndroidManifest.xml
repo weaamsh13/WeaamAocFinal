@@ -9,8 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ChelseaInfoActivity"></activity>
+        <activity android:name=".ManchesterunitedInfoActivity" />
+        <activity android:name=".LiverpoolInfoActivity" />
+        <activity android:name=".TottenhamActivity" />
+        <activity android:name=".LeicesterCityActivity" />
+        <activity android:name=".ManchesterCityActivity" />
+        <activity android:name=".ArsenalActivity" />
+        <activity android:name=".ChelseaActivity" />
+        <activity android:name=".ManchesterUnitedActivity" />
+        <activity android:name=".LiverpoolActivity" />
         <activity android:name=".LoginActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +29,7 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".AddGameActivity" />
-        <activity android:name=".GamelistActivity"/>
+        <activity android:name=".GamelistActivity" />
     </application>
 
 </manifest>

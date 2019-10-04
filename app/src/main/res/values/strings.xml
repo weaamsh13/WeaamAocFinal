@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">WeaamAoc2019</string>
+    <string-array name="club_list">
+        <item>Liverpool</item>
+        <item>Manchester United</item>
+        <item>Chelsea</item>
+        <item>Arsenal</item>
+        <item>Manchester City</item>
+        <item>Tottenham</item>
+        <item>Leicester City</item>
+    </string-array>
 </resources>

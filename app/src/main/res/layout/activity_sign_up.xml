@@ -29,6 +29,22 @@
         android:inputType="textPassword"
         android:padding="25dp" />
 
+    <EditText
+        android:id="@+id/editTextFavoriteClub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:ems="10"
+        android:hint="FavoriteClub"
+        android:inputType="textEmailAddress"
+        android:padding="25dp" />
+
+    <Button
+        android:id="@+id/buttonClub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Club" />
+
     <Button
         android:id="@+id/buttonRegister"
         android:layout_width="match_parent"

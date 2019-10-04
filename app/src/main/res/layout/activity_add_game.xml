@@ -7,6 +7,7 @@
     android:background="@drawable/sixtynine"
     tools:context=".AddGameActivity">
 
+
     <EditText
         android:id="@+id/editTextGameName"
         android:layout_width="wrap_content"
@@ -16,7 +17,6 @@
         android:hint="GameName"
         android:inputType="textEmailAddress"
         android:padding="25dp" />
-
 
     <Button
         android:id="@+id/buttonAddGame"
