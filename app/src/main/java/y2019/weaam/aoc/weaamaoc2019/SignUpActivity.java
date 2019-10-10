@@ -1,7 +1,6 @@
 package y2019.weaam.aoc.weaamaoc2019;
 
 import android.app.Activity;
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -29,7 +28,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     String[] listItems;
     ImageView imagePhoto;
     Button buttonCamera;
-    Button buttonX;
+    Button buttonGallery;
     Bitmap bitmap;
 
 
@@ -46,11 +45,12 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         editTextFavoriteClub=findViewById(R.id.editTextFavoriteClub);
         buttonRegister=findViewById(R.id.buttonRegister);
         buttonCamera=findViewById(R.id.buttonCamera);
-        buttonX=findViewById(R.id.buttonX);
+        buttonGallery=findViewById(R.id.buttonGallery);
         imagePhoto=findViewById(R.id.imagePhoto);
 
         buttonRegister.setOnClickListener(this);
         buttonCamera.setOnClickListener(this);
+        buttonGallery.setOnClickListener(this);
 
         chooseClub = findViewById(R.id.buttonClub);
         chooseClub.setOnClickListener(new View.OnClickListener() {
@@ -82,6 +82,11 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         if(v == buttonCamera) {
             Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
             startActivityForResult(i,CAMERA_REQUEST);
+        }
+        if(v == buttonGallery){
+            Intent i = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+            startActivityForResult(i,SELECT_IMAGE);
+
         }
 }
 

@@ -52,9 +52,10 @@
         android:text="Camera" />
 
     <Button
-        android:id="@+id/buttonX"
+        android:id="@+id/buttonGallery"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Gallery" />
 
     <ImageView
         android:id="@+id/imagePhoto"
