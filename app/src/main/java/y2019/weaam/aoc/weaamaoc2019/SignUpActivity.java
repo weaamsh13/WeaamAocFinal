@@ -1,22 +1,37 @@
 package y2019.weaam.aoc.weaamaoc2019;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+
+import java.io.FileNotFoundException;
 
 public class SignUpActivity extends AppCompatActivity implements View.OnClickListener {
 
+    private static final int CAMERA_REQUEST = 0;
+    private static final int SELECT_IMAGE = 1;
     EditText editTextEmail , editTextPassword;
     EditText editTextFavoriteClub;
     Button buttonRegister;
     Button chooseClub;
     String[] listItems;
+    ImageView imagePhoto;
+    Button buttonCamera;
+    Button buttonX;
+    Bitmap bitmap;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +45,12 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         editTextPassword=findViewById(R.id.editTextPassword);
         editTextFavoriteClub=findViewById(R.id.editTextFavoriteClub);
         buttonRegister=findViewById(R.id.buttonRegister);
+        buttonCamera=findViewById(R.id.buttonCamera);
+        buttonX=findViewById(R.id.buttonX);
+        imagePhoto=findViewById(R.id.imagePhoto);
 
         buttonRegister.setOnClickListener(this);
+        buttonCamera.setOnClickListener(this);
 
         chooseClub = findViewById(R.id.buttonClub);
         chooseClub.setOnClickListener(new View.OnClickListener() {
@@ -60,5 +79,33 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
         startActivity(i);
     }
+        if(v == buttonCamera) {
+            Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivityForResult(i,CAMERA_REQUEST);
+        }
 }
+
+
+
+public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        //if the request was from camera and the result was OK meaning the camera worked
+    if (requestCode == CAMERA_REQUEST && resultCode == Activity.RESULT_OK) {
+        //the image captured is saved in the data object
+        bitmap = (Bitmap) data.getExtras().get("data");
+        //set image captured to be the new image
+        imagePhoto.setImageBitmap(bitmap);
+    }
+    else if (requestCode == SELECT_IMAGE && resultCode == Activity.RESULT_OK) {
+        Uri targetUri = data.getData();
+        try{
+            bitmap = BitmapFactory.decodeStream(getContentResolver().openInputStream(targetUri));
+            imagePhoto.setImageBitmap(bitmap);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+
+
 }

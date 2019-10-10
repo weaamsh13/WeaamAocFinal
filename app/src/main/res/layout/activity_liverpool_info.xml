@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sixtynine"
+    android:orientation="vertical"
     tools:context=".LiverpoolInfoActivity">
 
     <ImageView
@@ -23,11 +24,6 @@
         android:textSize="35dp"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="216dp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
