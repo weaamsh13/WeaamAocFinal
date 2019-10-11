@@ -22,7 +22,6 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     private static final int CAMERA_REQUEST = 0;
     private static final int SELECT_IMAGE = 1;
     EditText editTextEmail , editTextPassword;
-    EditText editTextFavoriteClub;
     Button buttonRegister;
     Button chooseClub;
     String[] listItems;
@@ -42,7 +41,6 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         //2.initialize properties
         editTextEmail=findViewById(R.id.editTextEmail);
         editTextPassword=findViewById(R.id.editTextPassword);
-        editTextFavoriteClub=findViewById(R.id.editTextFavoriteClub);
         buttonRegister=findViewById(R.id.buttonRegister);
         buttonCamera=findViewById(R.id.buttonCamera);
         buttonGallery=findViewById(R.id.buttonGallery);

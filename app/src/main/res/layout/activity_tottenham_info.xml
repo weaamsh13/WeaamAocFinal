@@ -4,25 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sixtynine"
     android:orientation="vertical"
-    tools:context=".LiverpoolInfoActivity">
+    android:background="@drawable/sixtynine"
+    tools:context=".TottenhamInfoActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView3"
         android:layout_width="420dp"
         android:layout_height="200dp"
-        app:srcCompat="@drawable/liverpoolicon"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:srcCompat="@drawable/tottenhamlogo"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-179dp" />
 
     <TextView
-        android:id="@+id/liverpoolfc"
+        android:id="@+id/tottenhamfc"
         android:layout_width="500dp"
         android:layout_height="88dp"
-        android:text="Liverpool F.C."
-        android:textSize="40dp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="216dp" />
-
+        android:text="Tottenham F.C."
+        android:textSize="40dp" />
 </LinearLayout>

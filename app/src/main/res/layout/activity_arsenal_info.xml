@@ -6,22 +6,18 @@
     android:layout_height="match_parent"
     android:background="@drawable/sixtynine"
     android:orientation="vertical"
-    tools:context=".ChelseaInfoActivity">
+    tools:context=".ArsenalInfoActivity">
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView5"
         android:layout_width="420dp"
-        android:layout_height="190dp"
-        app:srcCompat="@drawable/chelsea"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/arsenallogo" />
 
     <TextView
-        android:id="@+id/chelseafc"
+        android:id="@+id/arsenalfc"
         android:layout_width="500dp"
         android:layout_height="88dp"
-        android:text="Chelsea F.C."
-        android:textSize="40dp"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="216dp" />
+        android:text="Arsenal F.C."
+        android:textSize="40dp" />
 </LinearLayout>

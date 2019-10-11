@@ -10,7 +10,7 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="241dp"
+        android:layout_width="420dp"
         android:layout_height="200dp"
         app:srcCompat="@drawable/manchester"
         tools:layout_editor_absoluteX="75dp"
@@ -18,10 +18,10 @@
 
     <TextView
         android:id="@+id/manchesterunitedfc"
-        android:layout_width="285dp"
-        android:layout_height="103dp"
+        android:layout_width="500dp"
+        android:layout_height="88dp"
         android:text="Manchester United F.C."
-        android:textSize="35dp"
+        android:textSize="40dp"
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="209dp" />
 
