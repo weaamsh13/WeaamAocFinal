@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         arrClubs.add(new Club("Liverpool", R.drawable.liverpoolicon, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Manchester United F.C.", R.drawable.muicon, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Manchester United F.C.", R.drawable.manchester, R.drawable.favoriteicon));
         arrClubs.add(new Club("Chelsea", R.drawable.chelsea, R.drawable.favoriteicon));
         arrClubs.add(new Club("Arsenal", R.drawable.arsenallogo, R.drawable.favoriteicon));
         arrClubs.add(new Club("Leicester City F.C.", R.drawable.lclogo, R.drawable.favoriteicon));
