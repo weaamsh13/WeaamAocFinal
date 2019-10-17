@@ -1,5 +1,6 @@
 package y2019.weaam.aoc.weaamaoc2019;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AlertDialog;
@@ -13,6 +14,9 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.Context;
+import android.view.ViewGroup;
+import android.view.LayoutInflater;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,8 +26,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //components
     ListView lvClubs;
-    ArrayAdapter<String> adapter;
-    ArrayList<String> arrClubs=new ArrayList<String>();
+    CustomAdapter2 adapter;
+    ArrayList<Club> arrClubs=new ArrayList<Club>();
 
 
     @Override
@@ -31,16 +35,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        arrClubs.add("Liverpool");
-        arrClubs.add("Manchester United");
-        arrClubs.add("Chelsea");
-        arrClubs.add("Arsenal");
-        arrClubs.add("Manchester City");
-        arrClubs.add("Tottenham");
-        arrClubs.add("Leicester City");
-        adapter= new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1, arrClubs);
+        arrClubs.add(new Club("Liverpool", R.drawable.liverpoolicon, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Manchester United F.C.", R.drawable.muicon, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Chelsea", R.drawable.chelsea, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Arsenal", R.drawable.arsenallogo, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Leicester City F.C.", R.drawable.lclogo, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Manchester City F.C", R.drawable.mcitylogo, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Tottenham", R.drawable.tottenhamlogo, R.drawable.favoriteicon));
 
         lvClubs=(ListView) findViewById(R.id.lvClubs);
+        adapter = new CustomAdapter2(this, R.layout.clubs_item, arrClubs);
         lvClubs.setAdapter(adapter);
 
 
@@ -117,9 +121,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
 
     }
-
-
-
 
 
     }
