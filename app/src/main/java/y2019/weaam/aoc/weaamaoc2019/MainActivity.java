@@ -36,12 +36,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         arrClubs.add(new Club("Liverpool", R.drawable.liverpoolicon, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Manchester United F.C.", R.drawable.manchester, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Manchester United F.C.", R.drawable.munitedlogopng, R.drawable.favoriteicon));
         arrClubs.add(new Club("Chelsea", R.drawable.chelsea, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Arsenal", R.drawable.arsenallogo, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Arsenal ", R.drawable.arsenallogo, R.drawable.favoriteicon));
         arrClubs.add(new Club("Leicester City F.C.", R.drawable.lclogo, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Manchester City F.C", R.drawable.mcitylogo, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Tottenham", R.drawable.tottenhamlogo, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Manchester City F.C", R.drawable.mclogopng, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Tottenham Spurs", R.drawable.tottenhamlogo, R.drawable.favoriteicon));
 
         lvClubs=(ListView) findViewById(R.id.lvClubs);
         adapter = new CustomAdapter2(this, R.layout.clubs_item, arrClubs);

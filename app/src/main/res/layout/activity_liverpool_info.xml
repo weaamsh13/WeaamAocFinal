@@ -25,4 +25,38 @@
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="216dp" />
 
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Founding year/Founder/s: 1892/John Houlding."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stadium: Anfield."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Premier League/Champions League Titles: PL - 18 times / CL - 6 times."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Manager: Jürgen Klopp."
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Players Roster" />
+
 </LinearLayout>

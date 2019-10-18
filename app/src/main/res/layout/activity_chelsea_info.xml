@@ -24,4 +24,38 @@
         android:textSize="40dp"
         tools:layout_editor_absoluteX="111dp"
         tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Founding year/Founder/s: 1905/Gus and Joseph Mears."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stadium: Stamford Bridge."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Premier League / Champions League Titles: PL - 5 times / CL - 1 time."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Manager: Frank Lampard."
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Players Roster" />
 </LinearLayout>

@@ -22,4 +22,38 @@
         android:layout_height="88dp"
         android:text="Tottenham F.C."
         android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Founding year/Founder/s: 1882/Bobby Buckle."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stadium: Tottenham Hotspur Stadium."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Premier League/Champions League Titles: PL 2 times / CL - 0 times."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Manager: Mauricio Pochettino."
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Players Roster" />
 </LinearLayout>

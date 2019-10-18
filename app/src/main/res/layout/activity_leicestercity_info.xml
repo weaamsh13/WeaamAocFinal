@@ -20,4 +20,38 @@
         android:layout_height="88dp"
         android:text="Leicester City F.C."
         android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Founding year/Founder/s: 1884/Not known."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stadium: King Power Stadium."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Premier League / Champions League Titles: PL - 1 time / CL - 0 times."
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Manager: Brendan Rodgers."
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Players Roster" />
 </LinearLayout>
