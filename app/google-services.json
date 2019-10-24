@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "849489359217",
+    "firebase_url": "https://weaamaoc2019.firebaseio.com",
+    "project_id": "weaamaoc2019",
+    "storage_bucket": "weaamaoc2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849489359217:android:4d1d726372db13d30f86d0",
+        "android_client_info": {
+          "package_name": "y2019.weaam.aoc.weaamaoc2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849489359217-i9tgit3t5i5lvucc8r0n228hlnuj6sve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "y2019.weaam.aoc.weaamaoc2019",
+            "certificate_hash": "090b37ae54543232e42d4a8a51221c2a9a993f6a"
+          }
+        },
+        {
+          "client_id": "849489359217-fo9o3c0v18pvko343pg357vl3ehvmplp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmDYSLud0GK-qcG6voF1t-7gzR3vc8aiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849489359217-fo9o3c0v18pvko343pg357vl3ehvmplp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
