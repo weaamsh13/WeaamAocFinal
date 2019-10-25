@@ -39,6 +39,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     Button buttonGallery;
     Bitmap bitmap;
     private FirebaseAuth mAuth;
+    String clubChosen = "LiverPool";
 
 
     @Override
@@ -71,6 +72,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
                 mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int which) {
+                        clubChosen =  listItems[which];
                         dialogInterface.dismiss();
                     }
                 });

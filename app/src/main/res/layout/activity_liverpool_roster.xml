@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sixtynine"
+    android:orientation="vertical"
+    tools:context=".LiverpoolRoster">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="420dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/liverpoolicon"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/liverpoolfcroster"
+        android:layout_width="500dp"
+        android:layout_height="88dp"
+        android:text="The Team"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:text="GOALKEEPERS:
+1. Alisson Becker
+13. Adrian
+22. Andy Lonergan
+62. Caoimhin Kelleher
+
+DEFENDERS:
+2.Nathaniel Clyne
+4.Virgil van Dijk
+6.Dejan Lovren
+12.Joe Gomez
+26.Andy Robertson
+32.Joel Matip
+51.Ki-Jana Hoever
+66.Trent Alexander-Arnold
+72.Sepp van den Berg
+
+MIDFIELDERS:
+3.Fabihno
+5.Georginio Wijnaldum
+7.James Milner
+8.Naby Keita
+14.Jordan Henderson
+15.Alex Oxlade-Chamberlain
+20.Adam Lallana
+23.Xherdan Shaqiri
+48.Curtis Jones
+67.Harvey Elliott
+
+FORWARD:
+9.Roberto Firmino
+10.Sadio Mane
+11.Mohamed Salah
+24.Rhian Brewster
+27.Divock Origi
+" />
+
+</LinearLayout>
