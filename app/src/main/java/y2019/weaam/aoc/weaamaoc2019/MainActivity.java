@@ -1,6 +1,5 @@
 package y2019.weaam.aoc.weaamaoc2019;
 
-import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AlertDialog;
@@ -9,19 +8,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
+import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
-import android.content.Context;
-import android.view.ViewGroup;
-import android.view.LayoutInflater;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, View.OnLongClickListener
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener
 {
 
     //components
@@ -35,17 +27,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        arrClubs.add(new Club("Liverpool", R.drawable.liverpoolicon, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Manchester United F.C.", R.drawable.munitedlogopng, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Chelsea", R.drawable.chelsea, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Arsenal ", R.drawable.arsenallogo, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Leicester City F.C.", R.drawable.lclogo, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Manchester City F.C", R.drawable.mclogopng, R.drawable.favoriteicon));
-        arrClubs.add(new Club("Tottenham Spurs", R.drawable.tottenhamlogo, R.drawable.favoriteicon));
+        arrClubs.add(new Club("Liverpool", R.drawable.liverpoolicon, R.drawable.blackstar));
+        arrClubs.add(new Club("Manchester United F.C.", R.drawable.munitedlogopng, R.drawable.blackstar));
+        arrClubs.add(new Club("Chelsea", R.drawable.chelsea, R.drawable.blackstar));
+        arrClubs.add(new Club("Arsenal ", R.drawable.arsenallogo, R.drawable.blackstar));
+        arrClubs.add(new Club("Leicester City F.C.", R.drawable.lclogo, R.drawable.blackstar));
+        arrClubs.add(new Club("Manchester City F.C", R.drawable.mclogopng, R.drawable.blackstar));
+        arrClubs.add(new Club("Tottenham Spurs", R.drawable.tottenhamlogo, R.drawable.blackstar));
 
         lvClubs=(ListView) findViewById(R.id.lvClubs);
         adapter = new CustomAdapter2(this, R.layout.clubs_item, arrClubs);
         lvClubs.setAdapter(adapter);
+        lvClubs.setOnItemClickListener(this);
 
 
 
@@ -95,33 +88,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
 
-
-
-
-
-
         }
         return true;
 
     }
 
-
-
-
-
-
-
     @Override
-    public boolean onLongClick(View v) {
-        return false;
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        if(arrClubs.get(position).getClubName().equals("Liverpool")){
+            Intent i = new Intent(this, LiverpoolInfoActivity.class);
+            startActivity(i);
+        }
     }
-
-
-    @Override
-    public void onClick(View v) {
-
-    }
-
-
-    }
+}
 
