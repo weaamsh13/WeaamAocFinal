@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChelseaRosterActivity"></activity>
+        <activity android:name=".LeicesterCityRosterActivity"></activity>
+        <activity android:name=".ManchesterCityRosterActivity" />
+        <activity android:name=".TottenhamRosterActivity" />
+        <activity android:name=".ArsenalRosterActivity" />
+        <activity android:name=".ChelseaRosterActivity" />
         <activity android:name=".ManchesterunitedRosterActivity" />
         <activity android:name=".LiverpoolRosterActivity" />
         <activity android:name=".ClubslistActivity" />

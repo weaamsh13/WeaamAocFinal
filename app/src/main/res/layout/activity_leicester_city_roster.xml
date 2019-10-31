@@ -6,28 +6,30 @@
     android:layout_height="match_parent"
     android:background="@drawable/sixtynine"
     android:orientation="vertical"
-    tools:context=".ChelseaRosterActivity">
+    tools:context=".LeicesterCityRosterActivity">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="420dp"
         android:layout_height="200dp"
-        app:srcCompat="@drawable/chelsea"
+        app:srcCompat="@drawable/lclogo"
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <TextView
-        android:id="@+id/chelsearoster"
-        android:layout_width="500dp"
-        android:layout_height="88dp"
+        android:id="@+id/leicesterroster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="The Team"
         android:textSize="40dp"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="216dp" />
 
     <ScrollView
-        android:id="@+id/scrollViewIdchelsea"
+        android:id="@+id/scrollViewIdleicester"
         android:layout_width="match_parent"
-        android:layout_height="281dp" />
+        android:layout_height="281dp">
+
+    </ScrollView>
 
 </LinearLayout>

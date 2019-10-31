@@ -125,7 +125,12 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
 
         if(v==buttonRegister) {
-            signUp(editTextEmail.getText().toString(),editTextPassword.getText().toString() );
+            if(editTextEmail.getText().toString().equals("")||editTextPassword.getText().toString().equals("")) {
+                Toast.makeText(this,"Empty Password or Email",Toast.LENGTH_LONG).show();
+            }
+                else{
+                    signUp(editTextEmail.getText().toString(),editTextPassword.getText().toString() );
+            }
     }
         if(v == buttonCamera) {
             Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

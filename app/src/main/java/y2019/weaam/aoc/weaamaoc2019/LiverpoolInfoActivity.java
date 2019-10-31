@@ -13,6 +13,7 @@ public class LiverpoolInfoActivity extends AppCompatActivity implements View.OnC
     Button prliverpool;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,5 +30,7 @@ public class LiverpoolInfoActivity extends AppCompatActivity implements View.OnC
         if(v==prliverpool){
         Intent i = new Intent(this, LiverpoolRosterActivity.class);
         startActivity(i);}
+
+
     }
 }

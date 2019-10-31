@@ -3,17 +3,16 @@ package y2019.weaam.aoc.weaamaoc2019;
 import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.HorizontalScrollView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-public class LiverpoolRosterActivity extends AppCompatActivity {
+public class LeicesterCityRosterActivity extends AppCompatActivity {
 
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_liverpool_roster);
+        setContentView(R.layout.activity_leicester_city_roster);
 
         TextView tv = new TextView(this);
 
@@ -57,7 +56,7 @@ public class LiverpoolRosterActivity extends AppCompatActivity {
 
         ScrollView scrollView;
 
-        scrollView = findViewById(R.id.scrollViewIdliverpool);
+        scrollView = findViewById(R.id.scrollViewIdleicester);
         scrollView.addView(tv);
     }
 }

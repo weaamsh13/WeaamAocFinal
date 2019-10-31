@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         arrClubs.add(new Club("Liverpool", R.drawable.liverpoolicon, R.drawable.blackstar));
         arrClubs.add(new Club("Manchester United F.C.", R.drawable.munitedlogopng, R.drawable.blackstar));
         arrClubs.add(new Club("Chelsea", R.drawable.chelsea, R.drawable.blackstar));
-        arrClubs.add(new Club("Arsenal ", R.drawable.arsenallogo, R.drawable.blackstar));
+        arrClubs.add(new Club("Arsenal", R.drawable.arsenallogo, R.drawable.blackstar));
         arrClubs.add(new Club("Leicester City F.C.", R.drawable.lclogo, R.drawable.blackstar));
         arrClubs.add(new Club("Manchester City F.C", R.drawable.mclogopng, R.drawable.blackstar));
         arrClubs.add(new Club("Tottenham Spurs", R.drawable.tottenhamlogo, R.drawable.blackstar));
@@ -97,6 +97,36 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         if(arrClubs.get(position).getClubName().equals("Liverpool")){
             Intent i = new Intent(this, LiverpoolInfoActivity.class);
+            startActivity(i);
+        }
+
+        if(arrClubs.get(position).getClubName().equals("Manchester United F.C.")){
+            Intent i = new Intent(this, ManchesterunitedInfoActivity.class);
+            startActivity(i);
+        }
+
+        if(arrClubs.get(position).getClubName().equals("Chelsea")){
+            Intent i = new Intent(this, ChelseaInfoActivity.class);
+            startActivity(i);
+        }
+
+        if(arrClubs.get(position).getClubName().equals("Arsenal")){
+            Intent i = new Intent(this, ArsenalInfoActivity.class);
+            startActivity(i);
+        }
+
+        if(arrClubs.get(position).getClubName().equals("Leicester City F.C")){
+            Intent i = new Intent(this, LeicestercityInfoActivity.class);
+            startActivity(i);
+        }
+
+        if(arrClubs.get(position).getClubName().equals("Manchester City F.C")){
+            Intent i = new Intent(this, ManchestercityInfoActivity.class);
+            startActivity(i);
+        }
+
+        if(arrClubs.get(position).getClubName().equals("Tottenham Spurs")){
+            Intent i = new Intent(this, TottenhamInfoActivity.class);
             startActivity(i);
         }
     }

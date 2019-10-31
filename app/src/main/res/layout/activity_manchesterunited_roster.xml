@@ -9,19 +9,24 @@
     tools:context=".ManchesterunitedRosterActivity">
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/imageView2"
         android:layout_width="420dp"
         android:layout_height="200dp"
         app:srcCompat="@drawable/munitedlogopng"
-        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <TextView
-        android:id="@+id/mcroster"
+        android:id="@+id/manuroster"
         android:layout_width="500dp"
         android:layout_height="88dp"
         android:text="The Team"
         android:textSize="40dp"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="216dp" />
+
+    <ScrollView
+        android:id="@+id/scrollViewIdmanu"
+        android:layout_width="match_parent"
+        android:layout_height="281dp" />
 </LinearLayout>
