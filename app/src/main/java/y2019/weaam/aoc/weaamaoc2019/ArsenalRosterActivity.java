@@ -18,40 +18,37 @@ public class ArsenalRosterActivity extends AppCompatActivity {
 
         tv.setTextSize(25);
         tv.setText("\"GOALKEEPERS:\n" +
-                "1. Alisson Becker\n" +
-                "13. Adrian\n" +
-                "22. Andy Lonergan\n" +
-                "62. Caoimhin Kelleher\n" +
+                "1. Brend Leno\n" +
+                "26. Emiliano Martinez\n" +
+                "33. Matt Macey\n" +
                 "\n" +
                 "DEFENDERS:\n" +
-                "2.Nathaniel Clyne\n" +
-                "4.Virgil van Dijk\n" +
-                "6.Dejan Lovren\n" +
-                "12.Joe Gomez\n" +
-                "26.Andy Robertson\n" +
-                "32.Joel Matip\n" +
-                "51.Ki-Jana Hoever\n" +
-                "66.Trent Alexander-Arnold\n" +
-                "72.Sepp van den Berg\n" +
+                "2.Hector Bellerin\n" +
+                "3.Kieran Tierney\n" +
+                "5.Sokratis\n" +
+                "16.Rob Holding\n" +
+                "20.Shkodran Mustafi\n" +
+                "21.Calum Chambers\n" +
+                "23.David Luiz\n" +
+                "27.Konstantinios Mavropanos\n" +
+                "31.Sead Kolasinac\n" +
                 "\n" +
                 "MIDFIELDERS:\n" +
-                "3.Fabihno\n" +
-                "5.Georginio Wijnaldum\n" +
-                "7.James Milner\n" +
-                "8.Naby Keita\n" +
-                "14.Jordan Henderson\n" +
-                "15.Alex Oxlade-Chamberlain\n" +
-                "20.Adam Lallana\n" +
-                "23.Xherdan Shaqiri\n" +
-                "48.Curtis Jones\n" +
-                "67.Harvey Elliott\n" +
+                "8.Dani Ceballos\n" +
+                "10.Mesut Ozil\n" +
+                "11.Lucas Torreira\n" +
+                "15.Ainsley Maitland-Niles\n" +
+                "28.Joe Willock\n" +
+                "29.Matteo Guendouzi\n" +
+                "32.Emile Smith Rowe\n" +
+                "34.Granit Xhaka\n" +
                 "\n" +
                 "FORWARD:\n" +
-                "9.Roberto Firmino\n" +
-                "10.Sadio Mane\n" +
-                "11.Mohamed Salah\n" +
-                "24.Rhian Brewster\n" +
-                "27.Divock Origi\n" +
+                "9.Alexandre Lacazette\n" +
+                "14.Pierre-Emerick Aubameyang\n" +
+                "19.Nicolas Pepe\n" +
+                "24.Reiss Nelson\n" +
+                "35.Gabrielle Martinelli\n" +
                 "\"");
 
         ScrollView scrollView;
