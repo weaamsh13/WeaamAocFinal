@@ -6,7 +6,6 @@ public class Club {
     private int imageId2;
 
 
-
     public Club(String clubName, int imageId, int imageId2) {
         this.clubName = clubName;
         this.imageId = imageId;
