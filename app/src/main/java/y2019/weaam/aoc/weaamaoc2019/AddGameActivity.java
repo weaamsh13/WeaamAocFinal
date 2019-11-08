@@ -9,13 +9,19 @@ import android.widget.EditText;
 public class AddGameActivity extends AppCompatActivity {
 
     //1, properties definition
-    EditText editTextEmail , editTextPassword;
-    Button buttonLogIn, buttonSignUp;
+    EditText editTextGameName , editTextDate;
+    Button buttonPickTime;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_game);
+
+        editTextGameName=findViewById(R.id.editTextGameName);
+        editTextDate=findViewById(R.id.editTextDate);
+        buttonPickTime=findViewById(R.id.buttonPickTime);
+
+
 
 
     }

@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             startActivity(i);
         }
 
-        if(arrClubs.get(position).getClubName().equals("Leicester City F.C")){
+        if(arrClubs.get(position).getClubName().equals("Leicester City F.C.")){
             Intent i = new Intent(this, LeicestercityInfoActivity.class);
             startActivity(i);
         }
