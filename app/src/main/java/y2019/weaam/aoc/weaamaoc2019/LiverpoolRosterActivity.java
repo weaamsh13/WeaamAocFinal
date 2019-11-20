@@ -25,34 +25,34 @@ public class LiverpoolRosterActivity extends AppCompatActivity {
                 "62. Caoimhin Kelleher\n" +
                 "\n" +
                 "DEFENDERS:\n" +
-                "2.Nathaniel Clyne\n" +
-                "4.Virgil van Dijk\n" +
-                "6.Dejan Lovren\n" +
-                "12.Joe Gomez\n" +
-                "26.Andy Robertson\n" +
-                "32.Joel Matip\n" +
-                "51.Ki-Jana Hoever\n" +
-                "66.Trent Alexander-Arnold\n" +
-                "72.Sepp van den Berg\n" +
+                "2. Nathaniel Clyne\n" +
+                "4. Virgil van Dijk\n" +
+                "6. Dejan Lovren\n" +
+                "12. Joe Gomez\n" +
+                "26. Andy Robertson\n" +
+                "32. Joel Matip\n" +
+                "51. Ki-Jana Hoever\n" +
+                "66. Trent Alexander-Arnold\n" +
+                "72. Sepp van den Berg\n" +
                 "\n" +
                 "MIDFIELDERS:\n" +
-                "3.Fabihno\n" +
-                "5.Georginio Wijnaldum\n" +
-                "7.James Milner\n" +
-                "8.Naby Keita\n" +
-                "14.Jordan Henderson\n" +
-                "15.Alex Oxlade-Chamberlain\n" +
-                "20.Adam Lallana\n" +
-                "23.Xherdan Shaqiri\n" +
-                "48.Curtis Jones\n" +
-                "67.Harvey Elliott\n" +
+                "3. Fabihno\n" +
+                "5. Georginio Wijnaldum\n" +
+                "7. James Milner\n" +
+                "8. Naby Keita\n" +
+                "14. Jordan Henderson\n" +
+                "15. Alex Oxlade-Chamberlain\n" +
+                "20. Adam Lallana\n" +
+                "23. Xherdan Shaqiri\n" +
+                "48. Curtis Jones\n" +
+                "67. Harvey Elliott\n" +
                 "\n" +
                 "FORWARD:\n" +
-                "9.Roberto Firmino\n" +
-                "10.Sadio Mane\n" +
-                "11.Mohamed Salah\n" +
-                "24.Rhian Brewster\n" +
-                "27.Divock Origi\n" +
+                "9. Roberto Firmino\n" +
+                "10. Sadio Mane\n" +
+                "11. Mohamed Salah\n" +
+                "24. Rhian Brewster\n" +
+                "27. Divock Origi\n" +
                 "\"");
 
         ScrollView scrollView;

@@ -18,40 +18,41 @@ public class ManchesterCityRosterActivity extends AppCompatActivity {
 
         tv.setTextSize(25);
         tv.setText("\"GOALKEEPERS:\n" +
-                "1. Alisson Becker\n" +
-                "13. Adrian\n" +
-                "22. Andy Lonergan\n" +
-                "62. Caoimhin Kelleher\n" +
+                "1. Claudio Bravo\n" +
+                "31. Ederson\n" +
+                "32. Daniel Grimshaw\n" +
+                "33. Scott Carson\n" +
+                "49. Arijanet Muric\n" +
                 "\n" +
                 "DEFENDERS:\n" +
-                "2.Nathaniel Clyne\n" +
-                "4.Virgil van Dijk\n" +
-                "6.Dejan Lovren\n" +
-                "12.Joe Gomez\n" +
-                "26.Andy Robertson\n" +
-                "32.Joel Matip\n" +
-                "51.Ki-Jana Hoever\n" +
-                "66.Trent Alexander-Arnold\n" +
-                "72.Sepp van den Berg\n" +
+                "2. Kyle Walker\n" +
+                "5. John Stones\n" +
+                "12. Angelino\n" +
+                "14. Aymeric Laporte\n" +
+                "22. Benjamin Mendy\n" +
+                "27. Joao Cancelo\n" +
+                "30. Nicolas Otamendi\n" +
+                "34. Phillippe Sandler\n" +
+                "50. Eric Garcia\n" +
                 "\n" +
                 "MIDFIELDERS:\n" +
-                "3.Fabihno\n" +
-                "5.Georginio Wijnaldum\n" +
-                "7.James Milner\n" +
-                "8.Naby Keita\n" +
-                "14.Jordan Henderson\n" +
-                "15.Alex Oxlade-Chamberlain\n" +
-                "20.Adam Lallana\n" +
-                "23.Xherdan Shaqiri\n" +
-                "48.Curtis Jones\n" +
-                "67.Harvey Elliott\n" +
+                "8. Ilkay Gundogan\n" +
+                "11. Oleksander Zincheko\n" +
+                "16. Rodrigo\n" +
+                "17. Kevin De Bruyne\n" +
+                "20. Bernando Silva\n" +
+                "21. David Silva\n" +
+                "25. Fernandinho\n" +
+                "26. Riyad Mahrez\n" +
+                "48. Phil Foden\n" +
+                "NoNumber. Patrick Roberts\n" +
                 "\n" +
                 "FORWARD:\n" +
-                "9.Roberto Firmino\n" +
-                "10.Sadio Mane\n" +
-                "11.Mohamed Salah\n" +
-                "24.Rhian Brewster\n" +
-                "27.Divock Origi\n" +
+                "7. Raheem Streling\n" +
+                "9. Gabriel Jesus\n" +
+                "10. Sergio Aguero\n" +
+                "19. Leroy Sane\n" +
+                "83. Ian Carlo Poveda\n" +
                 "\"");
 
         ScrollView scrollView;

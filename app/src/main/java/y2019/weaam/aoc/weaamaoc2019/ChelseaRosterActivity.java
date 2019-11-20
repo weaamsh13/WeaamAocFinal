@@ -18,40 +18,37 @@ public class ChelseaRosterActivity extends AppCompatActivity {
 
         tv.setTextSize(25);
         tv.setText("\"GOALKEEPERS:\n" +
-                "1. Alisson Becker\n" +
-                "13. Adrian\n" +
-                "22. Andy Lonergan\n" +
-                "62. Caoimhin Kelleher\n" +
+                "1. Kepa Arrizabalaga\n" +
+                "13. Willy Caballero\n" +
+                "31. Jamie Cumming\n" +
                 "\n" +
                 "DEFENDERS:\n" +
-                "2.Nathaniel Clyne\n" +
-                "4.Virgil van Dijk\n" +
-                "6.Dejan Lovren\n" +
-                "12.Joe Gomez\n" +
-                "26.Andy Robertson\n" +
-                "32.Joel Matip\n" +
-                "51.Ki-Jana Hoever\n" +
-                "66.Trent Alexander-Arnold\n" +
-                "72.Sepp van den Berg\n" +
+                "2. Antonio Rudiger\n" +
+                "3. Marcos Alonso\n" +
+                "4. Andreas Christensen\n" +
+                "28. Cesar Azpilicueta\n" +
+                "33. Emerson Palmieri\n" +
+                "15. Kurt Zouma\n" +
+                "24. Reece James\n" +
+                "29. Fikayo Tomori\n" +
                 "\n" +
                 "MIDFIELDERS:\n" +
-                "3.Fabihno\n" +
-                "5.Georginio Wijnaldum\n" +
-                "7.James Milner\n" +
-                "8.Naby Keita\n" +
-                "14.Jordan Henderson\n" +
-                "15.Alex Oxlade-Chamberlain\n" +
-                "20.Adam Lallana\n" +
-                "23.Xherdan Shaqiri\n" +
-                "48.Curtis Jones\n" +
-                "67.Harvey Elliott\n" +
+                "5. Jorginho\n" +
+                "7. N'golo Kante\n" +
+                "8. Ross Barkley\n" +
+                "17. Mateo Kovacic\n" +
+                "12. Roben Loftus-Cheek\n" +
+                "NoNumber. Marco Van Ginkel\n" +
+                "19. Mason Mount\n" +
                 "\n" +
                 "FORWARD:\n" +
-                "9.Roberto Firmino\n" +
-                "10.Sadio Mane\n" +
-                "11.Mohamed Salah\n" +
-                "24.Rhian Brewster\n" +
-                "27.Divock Origi\n" +
+                "11. Pedro\n" +
+                "20. Callum Hudson-Odoi\n" +
+                "18. Oliver Giroud\n" +
+                "10. Willian\n" +
+                "23. Michy Batshuayi\n" +
+                "22. Christian Pulisic\n" +
+                "9. Tammy Abraham\n" +
                 "\"");
 
         ScrollView scrollView;

@@ -18,7 +18,7 @@ public class TottenhamRosterActivity extends AppCompatActivity {
 
         tv.setTextSize(25);
         tv.setText("\"GOALKEEPERS:\n" +
-                "1. Alisson Becker\n" +
+                "1. Hugo Lloris\n" +
                 "13. Adrian\n" +
                 "22. Andy Lonergan\n" +
                 "62. Caoimhin Kelleher\n" +

@@ -18,40 +18,37 @@ public class LeicesterCityRosterActivity extends AppCompatActivity {
 
         tv.setTextSize(25);
         tv.setText("\"GOALKEEPERS:\n" +
-                "1. Alisson Becker\n" +
-                "13. Adrian\n" +
-                "22. Andy Lonergan\n" +
-                "62. Caoimhin Kelleher\n" +
+                "1. Kasper Schmeichel\n" +
+                "12. Danny Ward\n" +
+                "35. Eldin Jakupovic\n" +
                 "\n" +
                 "DEFENDERS:\n" +
-                "2.Nathaniel Clyne\n" +
-                "4.Virgil van Dijk\n" +
-                "6.Dejan Lovren\n" +
-                "12.Joe Gomez\n" +
-                "26.Andy Robertson\n" +
-                "32.Joel Matip\n" +
-                "51.Ki-Jana Hoever\n" +
-                "66.Trent Alexander-Arnold\n" +
-                "72.Sepp van den Berg\n" +
+                "2. James Justin\n" +
+                "3. Ben Chillwell\n" +
+                "4. Çaglar Söyüncü\n" +
+                "5. Wes Morgan\n" +
+                "6. Jonny Evans\n" +
+                "16. Filip Benkovic\n" +
+                "18. Daniel Amartey\n" +
+                "21. Ricardo Pereira\n" +
+                "28. Christian Fuchs\n" +
                 "\n" +
                 "MIDFIELDERS:\n" +
-                "3.Fabihno\n" +
-                "5.Georginio Wijnaldum\n" +
-                "7.James Milner\n" +
-                "8.Naby Keita\n" +
-                "14.Jordan Henderson\n" +
-                "15.Alex Oxlade-Chamberlain\n" +
-                "20.Adam Lallana\n" +
-                "23.Xherdan Shaqiri\n" +
-                "48.Curtis Jones\n" +
-                "67.Harvey Elliott\n" +
+                "7. Demarai Gray\n" +
+                "8. Youri Tielemans\n" +
+                "10. James Maddison\n" +
+                "11. Marc Albrighton\n" +
+                "15. Harvey Barnes\n" +
+                "20. Hamza Choudhury\n" +
+                "22. Matty James\n" +
+                "24. Nampalys Mendy\n" +
+                "25. Wilfred Ndidi\n" +
+                "26. Dennis Praet\n" +
                 "\n" +
                 "FORWARD:\n" +
-                "9.Roberto Firmino\n" +
-                "10.Sadio Mane\n" +
-                "11.Mohamed Salah\n" +
-                "24.Rhian Brewster\n" +
-                "27.Divock Origi\n" +
+                "9. Jamie Vardy\n" +
+                "14. Kelechi Iheanacho\n" +
+                "17. Ayoze Pérez\n" +
                 "\"");
 
         ScrollView scrollView;
