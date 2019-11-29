@@ -19,39 +19,38 @@ public class TottenhamRosterActivity extends AppCompatActivity {
         tv.setTextSize(25);
         tv.setText("\"GOALKEEPERS:\n" +
                 "1. Hugo Lloris\n" +
-                "13. Adrian\n" +
-                "22. Andy Lonergan\n" +
-                "62. Caoimhin Kelleher\n" +
+                "22. Paulo Gazzaniga\n" +
+                "13. Michel Vorm\n" +
                 "\n" +
                 "DEFENDERS:\n" +
-                "2.Nathaniel Clyne\n" +
-                "4.Virgil van Dijk\n" +
-                "6.Dejan Lovren\n" +
-                "12.Joe Gomez\n" +
-                "26.Andy Robertson\n" +
-                "32.Joel Matip\n" +
-                "51.Ki-Jana Hoever\n" +
-                "66.Trent Alexander-Arnold\n" +
-                "72.Sepp van den Berg\n" +
+                "3. Danny Rose\n" +
+                "4. Toby Alderweilerd\n" +
+                "5. Jan Vertonghen\n" +
+                "6. Davidson Sanchez\n" +
+                "16. Kyle Walker-Peters\n" +
+                "21. Jaun Foyth\n" +
+                "24. Serge Aurier\n" +
+                "33. Ben Davies\n" +
+                "39. Japhet Tanganga\n" +
                 "\n" +
                 "MIDFIELDERS:\n" +
-                "3.Fabihno\n" +
-                "5.Georginio Wijnaldum\n" +
-                "7.James Milner\n" +
-                "8.Naby Keita\n" +
-                "14.Jordan Henderson\n" +
-                "15.Alex Oxlade-Chamberlain\n" +
-                "20.Adam Lallana\n" +
-                "23.Xherdan Shaqiri\n" +
-                "48.Curtis Jones\n" +
-                "67.Harvey Elliott\n" +
+                "8. Harry Winks\n" +
+                "11. Eric Lamela\n" +
+                "12. Victor Wanyama\n" +
+                "15. Eric Dier\n" +
+                "17. Moussa Sissoko\n" +
+                "20. Dele Alli\n" +
+                "23. Christian Eriksen\n" +
+                "27. Lucas Moura\n" +
+                "28. Tanguy Ndombele\n" +
+                "29. Oliver Skipp\n" +
+                "18. Giovani Lo Celso\n" +
+                "19. Ryan Sessegnon\n" +
                 "\n" +
                 "FORWARD:\n" +
-                "9.Roberto Firmino\n" +
-                "10.Sadio Mane\n" +
-                "11.Mohamed Salah\n" +
-                "24.Rhian Brewster\n" +
-                "27.Divock Origi\n" +
+                "7. Son Heung-Min\n" +
+                "10. Harry Kane\n" +
+                "52. Troy Parrot\n" +
                 "\"");
 
         ScrollView scrollView;

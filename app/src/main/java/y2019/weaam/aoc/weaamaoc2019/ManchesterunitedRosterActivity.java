@@ -24,37 +24,37 @@ public class ManchesterunitedRosterActivity extends AppCompatActivity {
                 "40. Joel Pereira\n" +
                 "\n" +
                 "DEFENDERS:\n" +
-                "2.Victor Lindelof\n" +
-                "3.Eric Bailly\n" +
-                "4.Phil Jones\n" +
-                "5.Harry Maguire\n" +
-                "12.Chris Smalling\n" +
-                "16.Marcos Rojo\n" +
-                "18.Ashley Young\n" +
-                "20.Diogo Dalot\n" +
-                "23.Luke Shaw\n" +
-                "24.Tim Fosu-Mensah\n" +
-                "29.Aaron Wan-Bissaka\n" +
-                "38.Axel Tuanzebe\n" +
+                "2. Victor Lindelof\n" +
+                "3. Eric Bailly\n" +
+                "4. Phil Jones\n" +
+                "5. Harry Maguire\n" +
+                "12. Chris Smalling\n" +
+                "16. Marcos Rojo\n" +
+                "18. Ashley Young\n" +
+                "20. Diogo Dalot\n" +
+                "23. Luke Shaw\n" +
+                "24. Tim Fosu-Mensah\n" +
+                "29. Aaron Wan-Bissaka\n" +
+                "38. Axel Tuanzebe\n" +
                 "\n" +
                 "MIDFIELDERS:\n" +
-                "6.Paul Pogba\n" +
-                "8.Juan Mata\n" +
-                "14.Jesse Lingard\n" +
-                "15.Andreas Pereira\n" +
-                "17.Fred\n" +
-                "21.Daniel James\n" +
-                "28.Angel Gomes\n" +
-                "31.Nemanja Matic\n" +
-                "37.James Garner\n" +
-                "39.Scott Mctominay\n" +
+                "6. Paul Pogba\n" +
+                "8. Juan Mata\n" +
+                "14. Jesse Lingard\n" +
+                "15. Andreas Pereira\n" +
+                "17. Fred\n" +
+                "21. Daniel James\n" +
+                "28. Angel Gomes\n" +
+                "31. Nemanja Matic\n" +
+                "37. James Garner\n" +
+                "39. Scott Mctominay\n" +
                 "\n" +
                 "FORWARD:\n" +
-                "7.Alexis Sanchez\n" +
-                "9.Anthony Martial\n" +
-                "10.Marcus Rashford\n" +
-                "26.Mason Greenwood\n" +
-                "44.Tahith Chong\n" +
+                "7. Alexis Sanchez\n" +
+                "9. Anthony Martial\n" +
+                "10. Marcus Rashford\n" +
+                "26. Mason Greenwood\n" +
+                "44. Tahith Chong\n" +
                 "\"");
 
         ScrollView scrollView;
