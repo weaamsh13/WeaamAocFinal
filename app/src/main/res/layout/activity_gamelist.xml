@@ -5,14 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/sixtynine"
+    android:orientation="vertical"
     tools:context=".GamelistActivity">
 
-
     <TextView
-        android:id="@+id/gameDetails"
-        android:layout_width="372dp"
-        android:layout_height="566dp"
-        android:layout_weight="1"
-        android:text="Game Details" />
-
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 </LinearLayout>
