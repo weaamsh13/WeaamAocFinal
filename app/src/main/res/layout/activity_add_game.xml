@@ -18,29 +18,15 @@
         android:inputType="textEmailAddress"
         android:padding="25dp" />
 
-    <EditText
-        android:id="@+id/editTextDate"
+    <TextView
+        android:id="@+id/textViewDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:ems="10"
-        android:hint="Date"
+        android:hint="Select Date"
         android:inputType="textEmailAddress"
         android:padding="25dp" />
-
-    <Button
-        android:id="@+id/buttonPickTime"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Time"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="399dp"/>
-
-    <TextView
-        android:id="@+id/tvDisplayTime"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Selected Time" />
 
     <Button
         android:id="@+id/buttonAddGame"
